@@ -7,9 +7,11 @@ Opencart Version : 2.3.x
 Installation
 ------------
 
-Extract the opencart-blank-theme in root folder your installation of Opencart.
+Extract the opencart-blank-theme from folder UPLOAD in root of your installation of Opencart.
 
 Log in your admin panel.
+
+Install **blankcart.ocmod.xml** via Extensions / Installer.
 
 Go into Settings and select the store you want to apply the theme to.
 
@@ -20,7 +22,7 @@ If you want to change the theme name
 
 If you decide to change the name of your theme folder, make sure to update the paths :
 
-- line 31, path to the stylesheet.css in template/common/header.tpl
+- line 68, path to the main.css in template/common/header.tpl
 
 Suggestions and questions
 =========================
