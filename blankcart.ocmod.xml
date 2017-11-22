@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+  <code>BLKCRT10</code>
+  <name>Blankcart Theme</name>
+  <version>1.0</version>
+  <author>vender</author>
+  <link>https://github.com/vender/opencart-blank-theme</link>
+  <file path="catalog/controller/common/header.php">
+    <operation>
+      <search><![CDATA[
+      $data['telephone'] = $this->config->get('config_telephone');
+      ]]></search>
+      <add position="after"><![CDATA[
+      $data['theme'] = $this->config->get($this->config->get('config_theme') . '_them_style');
+      $data['nav'] = $this->config->get($this->config->get('config_theme') . '_nav');
+      ]]></add>
+    </operation>
+  </file>
+  <file path="catalog/controller/extension/module/slideshow.php">
+    <operation>
+      <search><![CDATA[
+      $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+      ]]></search>
+      <add position="replace"><![CDATA[
+      $this->document->addStyle('catalog/view/theme/blankcart/css/owl.carousel.css');
+      ]]></add>
+    </operation>
+  </file>
+  <file path="catalog/controller/extension/module/carousel.php">
+    <operation>
+      <search><![CDATA[
+      $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+      ]]></search>
+      <add position="replace"><![CDATA[
+      $this->document->addStyle('catalog/view/theme/blankcart/css/owl.carousel.css');
+      ]]></add>
+    </operation>
+  </file>
+</modification>
