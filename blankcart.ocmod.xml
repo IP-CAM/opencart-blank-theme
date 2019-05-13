@@ -11,8 +11,10 @@
       $data['telephone'] = $this->config->get('config_telephone');
       ]]></search>
       <add position="after"><![CDATA[
-      $data['theme'] = $this->config->get($this->config->get('config_theme') . '_them_style');
-      $data['nav'] = $this->config->get($this->config->get('config_theme') . '_nav');
+      if($this->config->get('config_theme') == 'blankcart') {
+        $data['blankcart_them_style'] = $this->config->get('blankcart_them_style');
+        $data['nav'] = $this->config->get($this->config->get('config_theme') . '_nav');
+      }
       ]]></add>
     </operation>
   </file>
