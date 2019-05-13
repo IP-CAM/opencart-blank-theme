@@ -8,7 +8,7 @@
   <file path="catalog/controller/common/header.php">
     <operation>
       <search><![CDATA[
-      $data['telephone'] = $this->config->get('config_telephone');
+      public function index() {
       ]]></search>
       <add position="after"><![CDATA[
       if($this->config->get('config_theme') == 'blankcart') {
