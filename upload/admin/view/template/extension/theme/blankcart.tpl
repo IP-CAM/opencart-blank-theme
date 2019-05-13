@@ -59,23 +59,23 @@
               <label class="col-sm-2 control-label" for="input-them_style"><?php echo $entry_them_style; ?></label>
               <div class="col-sm-10">
                 <select name="blankcart_them_style" id="them_style" class="form-control">
-                    <option value="blankcart_themedefault" <?php echo ($blankcart_them_style == 'blankcart_themedefault' ? 'selected' : ''); ?>>default</option>
-	                <option value="blankcart_themecerulean" <?php echo ($blankcart_them_style == 'blankcart_themecerulean' ? 'selected' : ''); ?>>cerulean</option>
-	                <option value="blankcart_themecosmo" <?php echo ($blankcart_them_style == 'blankcart_themecosmo' ? 'selected' : ''); ?>>cosmo</option>
-	                <option value="blankcart_themecyborg" <?php echo ($blankcart_them_style == 'blankcart_themecyborg' ? 'selected' : ''); ?>>cyborg</option>
-	                <option value="blankcart_themedarkly" <?php echo ($blankcart_them_style == 'blankcart_themedarkly' ? 'selected' : ''); ?>>darkly</option>
-	                <option value="blankcart_themeflatly" <?php echo ($blankcart_them_style == 'blankcart_themeflatly' ? 'selected' : ''); ?>>flatly</option>
-	                <option value="blankcart_themejournal" <?php echo ($blankcart_them_style == 'blankcart_themejournal' ? 'selected' : ''); ?>>journal</option>
-	                <option value="blankcart_themelumen" <?php echo ($blankcart_them_style == 'blankcart_themelumen' ? 'selected' : ''); ?>>lumen</option>
-	                <option value="blankcart_themepaper" <?php echo ($blankcart_them_style == 'blankcart_themepaper' ? 'selected' : ''); ?>>paper</option>
-	                <option value="blankcart_themereadable" <?php echo ($blankcart_them_style == 'blankcart_themereadable' ? 'selected' : ''); ?>>readable</option>
-	                <option value="blankcart_themesandstone" <?php echo ($blankcart_them_style == 'blankcart_themesandstone' ? 'selected' : ''); ?>>sandstone</option>
-	                <option value="blankcart_themesimplex" <?php echo ($blankcart_them_style == 'blankcart_themesimplex' ? 'selected' : ''); ?>>simplex</option>
-	                <option value="blankcart_themeslate" <?php echo ($blankcart_them_style == 'blankcart_themeslate' ? 'selected' : ''); ?>>slate</option>
-	                <option value="blankcart_themespacelab" <?php echo ($blankcart_them_style == 'blankcart_themespacelab' ? 'selected' : ''); ?>>spacelab</option>
-	                <option value="blankcart_themesuperhero" <?php echo ($blankcart_them_style == 'blankcart_themesuperhero' ? 'selected' : ''); ?>>superhero</option>
-	                <option value="blankcart_themeunited" <?php echo ($blankcart_them_style == 'blankcart_themeunited' ? 'selected' : ''); ?>>united</option>
-	                <option value="blankcart_themeyeti" <?php echo ($blankcart_them_style == 'blankcart_themeyeti' ? 'selected' : ''); ?>>yeti</option>
+                    <option value="blankcart_themedefault" <?php echo ($blankcart_them_style == 'blankcart_default' ? 'selected' : ''); ?>>default</option>
+	                <option value="blankcart_cerulean" <?php echo ($blankcart_them_style == 'blankcart_cerulean' ? 'selected' : ''); ?>>cerulean</option>
+	                <option value="blankcart_cosmo" <?php echo ($blankcart_them_style == 'blankcart_cosmo' ? 'selected' : ''); ?>>cosmo</option>
+	                <option value="blankcart_cyborg" <?php echo ($blankcart_them_style == 'blankcart_cyborg' ? 'selected' : ''); ?>>cyborg</option>
+	                <option value="blankcart_darkly" <?php echo ($blankcart_them_style == 'blankcart_darkly' ? 'selected' : ''); ?>>darkly</option>
+	                <option value="blankcart_flatly" <?php echo ($blankcart_them_style == 'blankcart_flatly' ? 'selected' : ''); ?>>flatly</option>
+	                <option value="blankcart_journal" <?php echo ($blankcart_them_style == 'blankcart_journal' ? 'selected' : ''); ?>>journal</option>
+	                <option value="blankcart_lumen" <?php echo ($blankcart_them_style == 'blankcart_lumen' ? 'selected' : ''); ?>>lumen</option>
+	                <option value="blankcart_paper" <?php echo ($blankcart_them_style == 'blankcart_paper' ? 'selected' : ''); ?>>paper</option>
+	                <option value="blankcart_readable" <?php echo ($blankcart_them_style == 'blankcart_readable' ? 'selected' : ''); ?>>readable</option>
+	                <option value="blankcart_sandstone" <?php echo ($blankcart_them_style == 'blankcart_sandstone' ? 'selected' : ''); ?>>sandstone</option>
+	                <option value="blankcart_simplex" <?php echo ($blankcart_them_style == 'blankcart_simplex' ? 'selected' : ''); ?>>simplex</option>
+	                <option value="blankcart_slate" <?php echo ($blankcart_them_style == 'blankcart_slate' ? 'selected' : ''); ?>>slate</option>
+	                <option value="blankcart_spacelab" <?php echo ($blankcart_them_style == 'blankcart_spacelab' ? 'selected' : ''); ?>>spacelab</option>
+	                <option value="blankcart_superhero" <?php echo ($blankcart_them_style == 'blankcart_superhero' ? 'selected' : ''); ?>>superhero</option>
+	                <option value="blankcart_united" <?php echo ($blankcart_them_style == 'blankcart_united' ? 'selected' : ''); ?>>united</option>
+	                <option value="blankcart_yeti" <?php echo ($blankcart_them_style == 'blankcart_yeti' ? 'selected' : ''); ?>>yeti</option>
                 </select>
               </div>
             </div>
