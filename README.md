@@ -13,6 +13,10 @@ Log in your admin panel.
 
 Install **blankcart.ocmod.xml** via Extensions / Installer.
 
+Go to Extension->extensions in dropdown list select Themes.
+
+Click **Instal** against **Blank Theme**
+
 Go into Settings and select the store you want to apply the theme to.
 
 In the "Store" tab, change the theme to "opencart-blank-theme"
