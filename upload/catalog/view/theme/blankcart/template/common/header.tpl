@@ -6,13 +6,12 @@
 <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
 <!--<![endif]-->
 <?php
-//$theme = $this->config->get($this->config->get('config_theme') . '_them_style');
 $registry = new Registry();
 $config = new Config();
 // Config
 //$registry->set('config', $config);
 //$config = $registry->get('config');
-print_r($config->get('config_logo'));
+$theme = $blankcart_them_style;
 ?>
 <head>
 <meta charset="UTF-8" />
@@ -28,37 +27,37 @@ print_r($config->get('config_logo'));
 <?php } ?>
 <link href="catalog/view/theme/blankcart/css/font-awesome.min.css" rel="stylesheet">
 <!-- START blankcart module -->
-<?php if ($theme == "blankcart_themecerulean") { ?>
+<?php if ($theme == "blankcart_cerulean") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/cerulean.css"; ?>
-<?php } elseif ($theme == "blankcart_themecosmo") { ?>
+<?php } elseif ($theme == "blankcart_cosmo") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/cosmo.css"; ?>
-<?php } elseif ($theme == "blankcart_themecyborg") { ?>
+<?php } elseif ($theme == "blankcart_cyborg") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/cyborg.css"; ?>
-<?php } elseif ($theme == "blankcart_themedarkly") { ?>
+<?php } elseif ($theme == "blankcart_darkly") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/darkly.css"; ?>
-<?php } elseif ($theme == "blankcart_themeflatly") { ?>
+<?php } elseif ($theme == "blankcart_flatly") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/flatly.css"; ?>
-<?php } elseif ($theme == "blankcart_themejournal") { ?>
+<?php } elseif ($theme == "blankcart_journal") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/journal.css"; ?>
-<?php } elseif ($theme == "blankcart_themelumen") { ?>
+<?php } elseif ($theme == "blankcart_lumen") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/lumen.css"; ?>
-<?php } elseif ($theme == "blankcart_themepaper") { ?>
+<?php } elseif ($theme == "blankcart_paper") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/paper.css"; ?>
-<?php } elseif ($theme == "blankcart_themereadable") { ?>
+<?php } elseif ($theme == "blankcart_readable") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/readable.css"; ?>
-<?php } elseif ($theme == "blankcart_themesandstone") { ?>
+<?php } elseif ($theme == "blankcart_sandstone") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/sandstone.css"; ?>
-<?php } elseif ($theme == "blankcart_themesimplex") { ?>
+<?php } elseif ($theme == "blankcart_simplex") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/simplex.css"; ?>
-<?php } elseif ($theme == "blankcart_themeslate") { ?>
+<?php } elseif ($theme == "blankcart_slate") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/slate.css"; ?>
-<?php } elseif ($theme == "blankcart_themespacelab") { ?>
+<?php } elseif ($theme == "blankcart_spacelab") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/spacelab.css"; ?>
-<?php } elseif ($theme == "blankcart_themesuperhero") { ?>
+<?php } elseif ($theme == "blankcart_superhero") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/superhero.css"; ?>
-<?php } elseif ($theme == "blankcart_themeunited") { ?>
+<?php } elseif ($theme == "blankcart_united") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/united.css"; ?>
-<?php } elseif ($theme == "blankcart_themeyeti") { ?>
+<?php } elseif ($theme == "blankcart_yeti") { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/themes/yeti.css"; ?>
 <?php } else { ?>
 <?php $bsstyle = "catalog/view/theme/blankcart/css/bootstrap.min.css"; ?>
