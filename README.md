@@ -15,11 +15,13 @@ Install **blankcart.ocmod.xml** via Extensions / Installer.
 
 Go to Extension->extensions in dropdown list select Themes.
 
-Click **Instal** against **Blank Theme**
+Click **Instal** against **Blank Theme**, after click edit.
+
+In **Theme Directory** select blankcart and in **Status** select Enabled.
 
 Go into Settings and select the store you want to apply the theme to.
 
-In the "Store" tab, change the theme to "opencart-blank-theme"
+In the "Store" tab, change the theme to "opencart-blank-theme".
 
 If you want to change the theme name
 ------------------------------------
