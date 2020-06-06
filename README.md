@@ -30,7 +30,3 @@ If you decide to change the name of your theme folder, make sure to update the p
 
 - line 68, path to the main.css in template/common/header.tpl
 
-Suggestions and questions
-=========================
-
-If you have any question or suggestion feel free to send me an email at venderu@gmail.com
